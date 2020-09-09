@@ -1,3 +1,183 @@
 :root {
     --sathya:true;
 }
+
+
+.home-product_slider {
+
+    .owl-carousel {
+
+        .owl-item {
+
+            img {width: auto; display: inline-block;}
+        }
+
+    }  
+
+    .product_thumb {width: auto;}
+
+
+      .p-details {
+        float: left;
+        text-align: left;
+        margin-top: 0;
+        padding-left: 15px;
+        width: 328px;
+        margin-left: -2px;
+
+        .r-box {
+            background:$dark_red;
+            font-size: 14px;
+            color:$white;
+            padding: 5px 6px;
+            max-width: 180px;
+            text-align: center;
+        }
+
+        h3  {  
+            color:$black;
+            font-size: 18px; 
+        }
+
+         p {
+            margin-bottom: 10px;
+            line-height: normal;
+        }
+
+        .s-price {
+            font-size:20px;
+        }
+    }
+
+     .btn {
+        background:$dark_red;
+        color:$white;
+        border-radius: 0;
+        padding: 7px 79px;
+        margin-top: 20px;
+    }
+
+    h3 {
+        font-size: 18px;
+        font-weight: bold;
+        color:$dark_red;
+        text-transform: uppercase;
+    }
+
+    .product_carousel {
+
+        .owl-nav div {
+            position: absolute;
+            top: 50%;
+            transform: translatey(-50%);
+            font-size: 36px;
+            left: 0;
+            transition: .3s;
+            opacity: 10;
+            visibility: visible;
+        }
+
+        .owl-nav div:hover {
+            color: $dark_red;
+        }
+
+        .owl-nav div.owl-next {
+            right: 0;
+            left: auto;
+        }
+
+        .owl-nav div:hover {
+            color: $dark_red;
+        }
+
+    }
+
+    .product_carousel:hover .owl-nav div {
+        opacity: 1;
+        visibility: visible;
+        right: -30px;
+    }
+
+    .product_carousel:hover .owl-nav div.owl-next {
+        right: -30px;
+    }
+    
+    .product_content.p-title {
+        text-align: center;
+        margin-top: 10px;
+        width: calc(100% - 62px);
+        padding-left: 0;
+    
+    }
+
+}
+
+
+.home-before-after-section {
+        p{color:$black; font-size:16px;}
+        .owl-carousel .owl-item img {width: auto;}
+    }
+
+    .home-section-title {
+        text-align:center;
+        margin-bottom:40px;
+        
+                 
+        h2 {
+            color: $dark_red;
+            font-size: 34px;
+            text-transform: uppercase;
+            font-weight: 600;
+
+        }
+  
+
+    
+}
+
+
+.testimonials-section {
+
+    .home-section-title {margin-bottom:10px;}
+
+   .t-loop {
+        .author-name {
+        color: $dark_red;
+        }
+
+   }
+
+   
+
+}
+
+.morocco-method-section{
+
+    .home-section-title {margin-bottom:40px;}
+
+    .b-title{
+        background:$dark_red;;
+        color:$white;
+        text-align: center;
+        padding: 26px 10px;
+        font-size: 25px;
+        text-transform: uppercase;
+       }
+
+     .pad-m{padding: 38px 10px;}
+
+}
+
+    p {
+        font-size: 15px;
+        line-height: 24px;
+        font-family: "Open Sans", sans-serif;
+        font-style: normal;
+        margin-bottom: 2px;
+    }
+
+
+   .product_carousel .owl-nav div {
+        opacity: 10;
+        visibility: visible;
+    }

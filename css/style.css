@@ -401,6 +401,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .mb-100 {
   margin-bottom: 100px; }
 
+/* line 319, ../scss/_common.scss */
+.ml-50 {
+  margin-left: 50px; }
+
 /* 02. Element */
 /* line 3, ../scss/element/_button.scss */
 .button {
@@ -4939,8 +4943,8 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /*  07. footer area css here */
 /* line 2, ../scss/section/_footer.scss */
 .footer_top {
-  padding-bottom: 64px;
-  padding-top: 64px; }
+  padding-bottom: 10px;
+  padding-top: 34px; }
   @media only screen and (min-width: 768px) and (max-width: 991px) {
     /* line 2, ../scss/section/_footer.scss */
     .footer_top {
@@ -5188,6 +5192,10 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     /* line 260, ../scss/section/_footer.scss */
     .footer_border .footer_top {
       padding-top: 60px; } }
+
+/* line 276, ../scss/section/_footer.scss */
+footer.footer_widgets {
+  border-top: 1px solid #969696; }
 
 /* 10. shop page css here */
 @media only screen and (max-width: 767px) {
@@ -10322,7 +10330,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
       line-height: normal;
       margin-bottom: 10px; }
     /* line 45, ../scss/section/_custom-home.scss */
-    .home-section-two .product_content .bg-color {
+    .home-section-two .product_content .r-box {
       background: #d5212c;
       font-size: 14px;
       color: #fff;
@@ -10341,6 +10349,142 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 /* line 1, ../scss/_sathya.scss */
 :root {
   --sathya: true; }
+
+/* line 12, ../scss/_sathya.scss */
+.home-product_slider .owl-carousel .owl-item img {
+  width: auto;
+  display: inline-block; }
+/* line 17, ../scss/_sathya.scss */
+.home-product_slider .product_thumb {
+  width: auto; }
+/* line 20, ../scss/_sathya.scss */
+.home-product_slider .p-details {
+  float: left;
+  text-align: left;
+  margin-top: 0;
+  padding-left: 15px;
+  width: 328px;
+  margin-left: -2px; }
+  /* line 28, ../scss/_sathya.scss */
+  .home-product_slider .p-details .r-box {
+    background: #d5212c;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 5px 6px;
+    max-width: 180px;
+    text-align: center; }
+  /* line 37, ../scss/_sathya.scss */
+  .home-product_slider .p-details h3 {
+    color: #000000;
+    font-size: 18px; }
+  /* line 42, ../scss/_sathya.scss */
+  .home-product_slider .p-details p {
+    margin-bottom: 10px;
+    line-height: normal; }
+  /* line 47, ../scss/_sathya.scss */
+  .home-product_slider .p-details .s-price {
+    font-size: 20px; }
+/* line 52, ../scss/_sathya.scss */
+.home-product_slider .btn {
+  background: #d5212c;
+  color: #ffffff;
+  border-radius: 0;
+  padding: 7px 79px;
+  margin-top: 20px; }
+/* line 60, ../scss/_sathya.scss */
+.home-product_slider h3 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #d5212c;
+  text-transform: uppercase; }
+/* line 69, ../scss/_sathya.scss */
+.home-product_slider .product_carousel .owl-nav div {
+  position: absolute;
+  top: 50%;
+  transform: translatey(-50%);
+  font-size: 36px;
+  left: 0;
+  transition: .3s;
+  opacity: 10;
+  visibility: visible; }
+/* line 80, ../scss/_sathya.scss */
+.home-product_slider .product_carousel .owl-nav div:hover {
+  color: #d5212c; }
+/* line 84, ../scss/_sathya.scss */
+.home-product_slider .product_carousel .owl-nav div.owl-next {
+  right: 0;
+  left: auto; }
+/* line 89, ../scss/_sathya.scss */
+.home-product_slider .product_carousel .owl-nav div:hover {
+  color: #d5212c; }
+/* line 95, ../scss/_sathya.scss */
+.home-product_slider .product_carousel:hover .owl-nav div {
+  opacity: 1;
+  visibility: visible;
+  right: -30px; }
+/* line 101, ../scss/_sathya.scss */
+.home-product_slider .product_carousel:hover .owl-nav div.owl-next {
+  right: -30px; }
+/* line 105, ../scss/_sathya.scss */
+.home-product_slider .product_content.p-title {
+  text-align: center;
+  margin-top: 10px;
+  width: calc(100% - 62px);
+  padding-left: 0; }
+
+/* line 117, ../scss/_sathya.scss */
+.home-before-after-section p {
+  color: #000000;
+  font-size: 16px; }
+/* line 118, ../scss/_sathya.scss */
+.home-before-after-section .owl-carousel .owl-item img {
+  width: auto; }
+
+/* line 121, ../scss/_sathya.scss */
+.home-section-title {
+  text-align: center;
+  margin-bottom: 40px; }
+  /* line 126, ../scss/_sathya.scss */
+  .home-section-title h2 {
+    color: #d5212c;
+    font-size: 34px;
+    text-transform: uppercase;
+    font-weight: 600; }
+
+/* line 141, ../scss/_sathya.scss */
+.testimonials-section .home-section-title {
+  margin-bottom: 10px; }
+/* line 144, ../scss/_sathya.scss */
+.testimonials-section .t-loop .author-name {
+  color: #d5212c; }
+
+/* line 156, ../scss/_sathya.scss */
+.morocco-method-section .home-section-title {
+  margin-bottom: 40px; }
+/* line 158, ../scss/_sathya.scss */
+.morocco-method-section .b-title {
+  background: #d5212c;
+  color: #ffffff;
+  text-align: center;
+  padding: 26px 10px;
+  font-size: 25px;
+  text-transform: uppercase; }
+/* line 167, ../scss/_sathya.scss */
+.morocco-method-section .pad-m {
+  padding: 38px 10px; }
+
+/* line 171, ../scss/_sathya.scss */
+p {
+  font-size: 15px;
+  line-height: 24px;
+  font-family: "Open Sans", sans-serif;
+  font-style: normal;
+  margin-bottom: 2px; }
+
+/* line 180, ../scss/_sathya.scss */
+.product_carousel .owl-nav div {
+  opacity: 10;
+  visibility: visible; }
 
 /* line 1, ../scss/_praba.scss */
 :root {

@@ -1,7 +1,7 @@
 /*  07. footer area css here */
 .footer_top{
-    padding-bottom: 64px;
-    padding-top: 64px;
+    padding-bottom:10px;
+    padding-top:34px;
     @media #{$tablet-device}{
         padding-bottom: 31px;
     }
@@ -272,6 +272,10 @@
    
 }
 
+
+footer.footer_widgets {
+    border-top: 1px solid #969696;
+}
 
 
 
