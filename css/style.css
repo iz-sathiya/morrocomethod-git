@@ -10492,4 +10492,61 @@ p {
 
 /* line 1, ../scss/_syed.scss */
 :root {
-  --syed: true; }
+  --syed: true;
+  --color-red: #d5212c; }
+
+/* line 7, ../scss/_syed.scss */
+.color-red {
+  color: var(--color-red); }
+
+/* line 28, ../scss/_syed.scss */
+.font-10 {
+  font-size: 10px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-11 {
+  font-size: 11px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-12 {
+  font-size: 12px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-13 {
+  font-size: 13px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-14 {
+  font-size: 14px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-15 {
+  font-size: 15px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-16 {
+  font-size: 16px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-17 {
+  font-size: 17px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-18 {
+  font-size: 18px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-19 {
+  font-size: 19px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-20 {
+  font-size: 20px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-21 {
+  font-size: 21px; }
+
+/* line 28, ../scss/_syed.scss */
+.font-22 {
+  font-size: 22px; }
