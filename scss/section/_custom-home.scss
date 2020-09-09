@@ -1,0 +1,67 @@
+/*common home page content area css*/
+
+.home-section-three{
+
+     padding:60px 0;
+
+      h3{
+          font-size:20px;
+          font-weight: bold;
+          color:$dark_red;
+          text-transform: uppercase;
+      }
+      
+
+}
+
+
+.home-section-two{
+    padding:60px 0;
+
+    .product_thumb {
+        float: left;
+    }
+
+    .product_content{
+        text-align: left;
+        margin-top: 0;
+        padding-left: 14px;
+        float: left;
+        width: 261px;
+
+        h3 {
+            font-size: 20px;
+            line-height: 30px;
+            font-weight: bold;
+            text-transform: uppercase;
+        }
+
+        p {
+                font-size: 16px;
+                line-height: normal;
+                margin-bottom: 10px;
+            }
+
+            .bg-color{
+                background:$dark_red;
+                font-size: 14px;
+                color: #fff;
+                padding: 5px 6px;
+            }
+        }
+
+        .btn{
+            background:$gradient-btn; 
+            color:$white;
+            border-radius: 0;
+            padding: 7px 79px;
+            margin-top: 20px;
+
+            :hover{
+                background:$black; 
+            }
+    }
+
+    
+
+}

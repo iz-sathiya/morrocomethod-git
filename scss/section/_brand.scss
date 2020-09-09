@@ -1,0 +1,49 @@
+/*brand css here*/
+.brand_area {
+	padding:20px 0;
+    @media #{$large-mobile}{
+        padding: 60px 0;
+    }
+    .container {
+        border-top: 1px solid #3a3a3a;
+        border-bottom: 1px solid #3a3a3a;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+        }
+
+    }
+}
+.brand_container{
+    padding: 25px 0 23px;
+    border: 1px solid #efefef;
+    border-radius: 7px;
+    & .single_brand{
+        & img{
+            width: inherit;
+            margin: 0 auto;
+        }
+    }
+}
+
+.single_brand{
+    & a{
+        & img{
+            transition: .3s;
+        }
+    }
+    &:hover{
+        & a{
+            & img{
+                opacity: 1;
+            }
+        }
+    }
+}
+
+
+
+
+
+

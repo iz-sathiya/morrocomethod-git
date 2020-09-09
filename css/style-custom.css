@@ -1,0 +1,6 @@
+:root {
+  --custom-css:true;
+}
+.logo img {
+    max-width: 200px !important;
+}
