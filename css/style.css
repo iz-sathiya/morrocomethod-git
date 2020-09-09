@@ -10338,10 +10338,14 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
     .home-section-two .btn :hover {
       background: #000000; }
 
-/* line 66, ../scss/style.scss */
+/* line 1, ../scss/_sathya.scss */
 :root {
-  --syed: true; }
+  --sathya: true; }
 
-/* line 70, ../scss/style.scss */
+/* line 1, ../scss/_praba.scss */
 :root {
   --praba: true; }
+
+/* line 1, ../scss/_syed.scss */
+:root {
+  --syed: true; }
