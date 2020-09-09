@@ -1,3 +1,31 @@
 :root {
     --syed:true;
+
+    --color-red: #d5212c;
+}
+
+.color-red {
+    color:var(--color-red);
+}
+
+$sizes: (
+	'10': 10px, 
+	'11': 11px, 
+	'12': 12px,
+	'13': 13px,
+	'14': 14px,
+	'15': 15px,
+	'16': 16px,
+	'17': 17px,
+	'18': 18px,
+	'19': 19px,
+	'20': 20px,
+	'21': 21px,
+	'22': 22px
+);
+
+@each $value in $sizes {
+  .font-#{nth($value, 1)} {
+    font-size:#{nth($value, 2)};
+  }
 }
