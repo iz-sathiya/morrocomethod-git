@@ -405,6 +405,39 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
 .ml-50 {
   margin-left: 50px; }
 
+/* line 325, ../scss/_common.scss */
+.btn {
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e71224+0,d91624+40,d41924+47,cf1b26+67,c01f25+100 */
+  background: #e71224;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #e71224 0%, #d91624 40%, #d41924 47%, #cf1b26 67%, #c01f25 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #e71224 0%, #d91624 40%, #d41924 47%, #cf1b26 67%, #c01f25 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #e71224 0%, #d91624 40%, #d41924 47%, #cf1b26 67%, #c01f25 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e71224', endColorstr='#c01f25',GradientType=0 );
+  /* IE6-9 */
+  color: #ffffff;
+  border-radius: 0;
+  padding: 7px 79px;
+  margin-top: 20px; }
+
+/* line 339, ../scss/_common.scss */
+.btn:hover {
+  color: #ffffff;
+  /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#e71224+0,d91624+40,d41924+47,cf1b26+67,ed283b+100 */
+  background: #e71224;
+  /* Old browsers */
+  background: -moz-linear-gradient(left, #e71224 0%, #d91624 40%, #d41924 47%, #cf1b26 67%, #ed283b 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(left, #e71224 0%, #d91624 40%, #d41924 47%, #cf1b26 67%, #ed283b 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to right, #e71224 0%, #d91624 40%, #d41924 47%, #cf1b26 67%, #ed283b 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e71224', endColorstr='#ed283b',GradientType=1 );
+  /* IE6-9 */ }
+
 /* 02. Element */
 /* line 3, ../scss/element/_button.scss */
 .button {
@@ -4917,7 +4950,7 @@ input:-ms-input-placeholder, textarea:-ms-input-placeholder {
   /* line 7, ../scss/section/_brand.scss */
   .brand_area .container {
     border-top: 1px solid #3a3a3a;
-    border-bottom: 1px solid #3a3a3a; }
+    border-bottom: 1px solid #969696; }
     /* line 11, ../scss/section/_brand.scss */
     .brand_area .container ul {
       display: flex;
@@ -10335,29 +10368,15 @@ footer.footer_widgets {
       font-size: 14px;
       color: #fff;
       padding: 5px 6px; }
-  /* line 53, ../scss/section/_custom-home.scss */
-  .home-section-two .btn {
-    background: #d41925;
-    color: #ffffff;
-    border-radius: 0;
-    padding: 7px 79px;
-    margin-top: 20px; }
-    /* line 60, ../scss/section/_custom-home.scss */
-    .home-section-two .btn :hover {
-      background: #000000; }
 
-/* line 1, ../scss/_sathya.scss */
-:root {
-  --sathya: true; }
-
-/* line 12, ../scss/_sathya.scss */
+/* line 64, ../scss/section/_custom-home.scss */
 .home-product_slider .owl-carousel .owl-item img {
   width: auto;
   display: inline-block; }
-/* line 17, ../scss/_sathya.scss */
+/* line 69, ../scss/section/_custom-home.scss */
 .home-product_slider .product_thumb {
   width: auto; }
-/* line 20, ../scss/_sathya.scss */
+/* line 72, ../scss/section/_custom-home.scss */
 .home-product_slider .p-details {
   float: left;
   text-align: left;
@@ -10365,7 +10384,7 @@ footer.footer_widgets {
   padding-left: 15px;
   width: 328px;
   margin-left: -2px; }
-  /* line 28, ../scss/_sathya.scss */
+  /* line 80, ../scss/section/_custom-home.scss */
   .home-product_slider .p-details .r-box {
     background: #d5212c;
     font-size: 14px;
@@ -10373,31 +10392,24 @@ footer.footer_widgets {
     padding: 5px 6px;
     max-width: 180px;
     text-align: center; }
-  /* line 37, ../scss/_sathya.scss */
+  /* line 89, ../scss/section/_custom-home.scss */
   .home-product_slider .p-details h3 {
     color: #000000;
     font-size: 18px; }
-  /* line 42, ../scss/_sathya.scss */
+  /* line 94, ../scss/section/_custom-home.scss */
   .home-product_slider .p-details p {
     margin-bottom: 10px;
     line-height: normal; }
-  /* line 47, ../scss/_sathya.scss */
+  /* line 99, ../scss/section/_custom-home.scss */
   .home-product_slider .p-details .s-price {
     font-size: 20px; }
-/* line 52, ../scss/_sathya.scss */
-.home-product_slider .btn {
-  background: #d5212c;
-  color: #ffffff;
-  border-radius: 0;
-  padding: 7px 79px;
-  margin-top: 20px; }
-/* line 60, ../scss/_sathya.scss */
+/* line 106, ../scss/section/_custom-home.scss */
 .home-product_slider h3 {
   font-size: 18px;
   font-weight: bold;
   color: #d5212c;
   text-transform: uppercase; }
-/* line 69, ../scss/_sathya.scss */
+/* line 115, ../scss/section/_custom-home.scss */
 .home-product_slider .product_carousel .owl-nav div {
   position: absolute;
   top: 50%;
@@ -10407,73 +10419,74 @@ footer.footer_widgets {
   transition: .3s;
   opacity: 10;
   visibility: visible; }
-/* line 80, ../scss/_sathya.scss */
+/* line 126, ../scss/section/_custom-home.scss */
 .home-product_slider .product_carousel .owl-nav div:hover {
   color: #d5212c; }
-/* line 84, ../scss/_sathya.scss */
+/* line 130, ../scss/section/_custom-home.scss */
 .home-product_slider .product_carousel .owl-nav div.owl-next {
   right: 0;
   left: auto; }
-/* line 89, ../scss/_sathya.scss */
+/* line 135, ../scss/section/_custom-home.scss */
 .home-product_slider .product_carousel .owl-nav div:hover {
   color: #d5212c; }
-/* line 95, ../scss/_sathya.scss */
+/* line 141, ../scss/section/_custom-home.scss */
 .home-product_slider .product_carousel:hover .owl-nav div {
   opacity: 1;
   visibility: visible;
   right: -30px; }
-/* line 101, ../scss/_sathya.scss */
+/* line 147, ../scss/section/_custom-home.scss */
 .home-product_slider .product_carousel:hover .owl-nav div.owl-next {
   right: -30px; }
-/* line 105, ../scss/_sathya.scss */
+/* line 151, ../scss/section/_custom-home.scss */
 .home-product_slider .product_content.p-title {
   text-align: center;
   margin-top: 10px;
   width: calc(100% - 62px);
   padding-left: 0; }
 
-/* line 117, ../scss/_sathya.scss */
+/* line 163, ../scss/section/_custom-home.scss */
 .home-before-after-section p {
   color: #000000;
   font-size: 16px; }
-/* line 118, ../scss/_sathya.scss */
+/* line 164, ../scss/section/_custom-home.scss */
 .home-before-after-section .owl-carousel .owl-item img {
   width: auto; }
 
-/* line 121, ../scss/_sathya.scss */
+/* line 167, ../scss/section/_custom-home.scss */
 .home-section-title {
   text-align: center;
   margin-bottom: 40px; }
-  /* line 126, ../scss/_sathya.scss */
+  /* line 172, ../scss/section/_custom-home.scss */
   .home-section-title h2 {
     color: #d5212c;
     font-size: 34px;
     text-transform: uppercase;
     font-weight: 600; }
 
-/* line 141, ../scss/_sathya.scss */
+/* line 187, ../scss/section/_custom-home.scss */
 .testimonials-section .home-section-title {
   margin-bottom: 10px; }
-/* line 144, ../scss/_sathya.scss */
+/* line 190, ../scss/section/_custom-home.scss */
 .testimonials-section .t-loop .author-name {
   color: #d5212c; }
 
-/* line 156, ../scss/_sathya.scss */
+/* line 202, ../scss/section/_custom-home.scss */
 .morocco-method-section .home-section-title {
   margin-bottom: 40px; }
-/* line 158, ../scss/_sathya.scss */
+/* line 204, ../scss/section/_custom-home.scss */
 .morocco-method-section .b-title {
   background: #d5212c;
   color: #ffffff;
   text-align: center;
-  padding: 26px 10px;
+  padding: 16px 10px;
   font-size: 25px;
-  text-transform: uppercase; }
-/* line 167, ../scss/_sathya.scss */
+  text-transform: uppercase;
+  line-height: normal; }
+/* line 214, ../scss/section/_custom-home.scss */
 .morocco-method-section .pad-m {
-  padding: 38px 10px; }
+  padding: 33px 10px; }
 
-/* line 171, ../scss/_sathya.scss */
+/* line 218, ../scss/section/_custom-home.scss */
 p {
   font-size: 15px;
   line-height: 24px;
@@ -10481,10 +10494,71 @@ p {
   font-style: normal;
   margin-bottom: 2px; }
 
-/* line 180, ../scss/_sathya.scss */
+/* line 227, ../scss/section/_custom-home.scss */
 .product_carousel .owl-nav div {
   opacity: 10;
   visibility: visible; }
+
+/* line 1, ../scss/_sathya.scss */
+:root {
+  --sathya: true; }
+
+/* line 8, ../scss/_sathya.scss */
+.m_section .brand_area {
+  padding: 9px 0;
+  border-top: 1px solid #3a3a3a;
+  border-bottom: 1px solid #969696; }
+  /* line 14, ../scss/_sathya.scss */
+  .m_section .brand_area .container {
+    border-top: 0;
+    border-bottom: 0; }
+/* line 21, ../scss/_sathya.scss */
+.m_section .m-content {
+  margin-bottom: 20px; }
+  /* line 25, ../scss/_sathya.scss */
+  .m_section .m-content p {
+    margin-bottom: 20px; }
+/* line 28, ../scss/_sathya.scss */
+.m_section .m-loop {
+  border-bottom: 1px solid #969696;
+  padding-bottom: 20px;
+  padding-top: 20px; }
+  /* line 34, ../scss/_sathya.scss */
+  .m_section .m-loop img {
+    max-width: inherit;
+    height: auto; }
+  /* line 39, ../scss/_sathya.scss */
+  .m_section .m-loop .pr-1 {
+    max-width: 170px;
+    text-align: right;
+    margin-right: 20px; }
+  /* line 46, ../scss/_sathya.scss */
+  .m_section .m-loop .pr-2 {
+    margin-right: 10px; }
+  /* line 50, ../scss/_sathya.scss */
+  .m_section .m-loop span {
+    color: #d5212c; }
+  /* line 54, ../scss/_sathya.scss */
+  .m_section .m-loop .m-loop b {
+    font-size: 18px; }
+  /* line 58, ../scss/_sathya.scss */
+  .m_section .m-loop .p-3 {
+    padding: 0rem !important; }
+  /* line 62, ../scss/_sathya.scss */
+  .m_section .m-loop p.font-18 {
+    font-size: 18px;
+    text-transform: uppercase; }
+  /* line 67, ../scss/_sathya.scss */
+  .m_section .m-loop .pr-1 b {
+    text-transform: uppercase; }
+/* line 73, ../scss/_sathya.scss */
+.m_section .m-content {
+  padding-left: 35px;
+  padding-right: 30px; }
+
+/* line 83, ../scss/_sathya.scss */
+.m-loop.last-l {
+  border: 0; }
 
 /* line 1, ../scss/_praba.scss */
 :root {
