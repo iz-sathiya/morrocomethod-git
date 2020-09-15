@@ -1,7 +1,8 @@
 :root {
     --syed:true;
 
-    --color-red: #d5212c;
+	--color-red: #d5212c;
+	--color-gray: #808080;
 }
 
 .color-red {
@@ -30,4 +31,31 @@ $sizes: (
   }
 }
 
+.home-product_slider {
+	.ion-ios-arrow-left,
+	.ion-ios-arrow-right {
+		color:var(--color-red);
+	}
+}
 
+@media only screen and (max-width: 767px) {
+	.product_thumb {
+		text-align: center;
+	}
+}
+
+.logo{
+    @media #{$small-mobile2} {
+        text-align: center;
+    }
+}
+
+.search_box {
+	input {
+		text-transform: uppercase;
+	}
+}
+
+.main_menu nav > ul > li.active a {
+    color:var(--color-red)
+}
