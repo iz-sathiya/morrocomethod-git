@@ -26,11 +26,11 @@
 }
 .subscribe_form{
     & form{
-        position: relative;
-        border: 1px solid $grey_color;
-        width: 100%;
-        margin: 0 auto;
-        border-radius: 30px;
+
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    border-radius: 0;
         @media #{$large-mobile}{
             width: 100%;
         }
@@ -47,14 +47,18 @@
            color: #222;
         }
         & input{
-            width: 100%;
-            border: 0;
-            background: none;
-            padding: 0 120px 0 20px;
-            height: 46px;
-            font-size: 13px;
-            color: #222;
-             border-radius: 30px;
+
+         width: 100%;
+        border: 0;
+        background: none;
+        padding: 0 120px 0 20px;
+        height: 46px;
+        font-size: 13px;
+        color: 222;
+        border-radius: 0;
+        border: 1px solid $black;
+        margin-bottom: 10px;
+
             @media #{$tablet-device}{
                 height: 40px;
             }
@@ -65,19 +69,20 @@
             }
         }
         & button{
-            font-size: 14px;
+
+            font-size: 18px;
             text-transform: uppercase;
             font-weight: 400;
             height: 100%;
-            border: 0;
-            position: absolute;
-            top: 0;
             right: 0;
             @include transition(.3s);
-            padding: 0 15px;
-            border-radius: 0 30px 30px 0;
+            padding:8px 15px;
+            border-radius:0;
             background: $secondary_color;
             color: #fff;
+            width:100%;
+            margin-top: 0px;
+            border: 0;
             &:hover{
                 background: $fonts_color
             }

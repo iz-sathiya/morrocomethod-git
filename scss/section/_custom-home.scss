@@ -9,8 +9,14 @@
           font-weight: bold;
           color:$dark_red;
           text-transform: uppercase;
+          text-align: center;
+         margin-top: 18px;
       }
       
+    .about_gallery_content{
+         padding-top: 3px;
+     } 
+
 
 }
 
@@ -162,6 +168,24 @@
 .home-before-after-section {
         p{color:$black; font-size:16px;}
         .owl-carousel .owl-item img {width: auto;}
+
+    .product_carousel {
+
+        .ion-ios-arrow-left {
+            background-color: rgba(25, 23, 23, 0.65);
+            padding: 10px;
+            color: #fff; 
+        }
+
+        .ion-ios-arrow-right{
+            background-color: rgba(25, 23, 23, 0.65);
+            padding: 10px;
+            color: #fff; 
+        }
+
+    }   
+       
+
     }
 
     .home-section-title {

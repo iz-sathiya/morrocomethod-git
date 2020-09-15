@@ -1,0 +1,255 @@
+.lunar_expande{
+
+.product_d_right h1 {
+    font-size: 42px;
+    font-weight: 600;
+    margin-bottom: 20px;
+} 
+
+.card-header.card_accor button.btn-link {
+    background:$white;
+    color:$black;
+}
+
+.ingredients_content_area{padding-bottom: 50px;}
+
+.card-header.card_accor button.btn-link.collapsed {
+    border-bottom: 1px solid #969696;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+.card-header.card_accor button.btn-link {
+     border-bottom: 1px solid #969696;
+    border-top: 0;
+    border-right: 0;
+    border-left: 0;
+}
+
+.card-header.card_accor button.btn-link.collapsed i.fa-plus{color:$dark-red;}
+
+.product_faq {
+    text-align: center;
+}
+
+.about_gallery_section {
+  margin-bottom: 0px;
+  }
+
+  .about_gallery_content {
+    padding-top: 3px;
+    text-align: center;
+    margin-bottom: 38px;
+}
+
+i.ion-ios-arrow-left {
+    background-color: rgba(25, 23, 23, 0.65);
+    padding: 10px;
+    color: #fff;
+}
+
+i.ion-ios-arrow-right {
+    background-color: rgba(25, 23, 23, 0.65);
+    padding: 10px;
+    color: #fff;
+}
+
+.section_title h2{
+    color:$dark-red; 
+    font-weight:600;
+}
+
+    .product_d_right h1 a:hover{
+        color:#d91724;
+
+    }
+    .hint span {
+        font-size: 28px;
+        color: #d91724;
+        padding-left: 10px;
+    }
+    .hint ul {
+        display: flex;
+    }
+    .hint ul li {
+        padding: 7px;
+        font-size: 15px;
+        font-weight: 600;
+    }
+    .banner .col-12{
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .section_title.rotate_shampoo {
+        margin-top: 40px !important;
+    }
+    .optimal_shampo{text-align: center;margin-top: 30px;}
+    .optimal_shampo p {
+        font-size: 16px;
+    }
+    .rotate_shampoo {
+        text-align: center;
+        margin-top: 20px;
+    }
+    .rotate_shampoo a:hover{color: #fff !important;}
+    .rotate_shampoo h2 {
+        font-size: 32px;
+        color:$dark-red;
+    }
+    .beginners {
+        text-align: center;
+        margin-top: 20px;
+        color: #d91724;
+    }
+    .beginners a:hover { 
+        color: #d91724;
+    }
+    .inner-indt a{font-size: 19px;
+        letter-spacing: 0px;font-weight: 500;}
+    
+        .faq_content_area {
+            padding: 20px 0 20px !important;
+        }
+        .faq_content_wrapper{margin-top: 20px;}
+        .card-header.card_accor button.btn-link{font-size: 18px !important;}
+        .faq-expand {
+            border-bottom: 0px !important;
+            padding-bottom: 0px !important;
+        }
+        .about_gallery_container.faq-expand h3 {
+            font-size: 18px;
+            color: #d91724;
+            font-weight: 700;
+            line-height: 25px;
+        }
+        .lunar-card figure {
+            background: #fff;
+            border: 1px solid #ededed;
+            box-shadow: 3px 3px 5px #ededed;
+        }
+        .lunar-card .about_gallery_content h3 {
+            color: #424242 !important;
+            font-weight: 600 !important;
+            text-align: left;
+            padding: 10px;
+        }
+        .lunar-card .about_gallery_content p {
+            color: #424242 !important;
+            text-align: left;
+            padding: 10px;
+        }
+        .beginners .arrow:before {
+            content: "";
+            position: absolute;
+            background: url(../img/brand/right-arrow-icon_03.png) no-repeat;
+            width: 40px;
+            height: 20px;
+            left: 56%;
+            right: 0;
+        }
+        .testimonial_carousel .owl-nav .owl-prev:after {
+            content: "";
+            background: url(../img/brand/testimoial-left-arrow_03.png) no-repeat;
+            position: absolute;
+            left: -90px;
+            right: 0;
+            top: 19%;
+            width: 50px;
+            height: 60px;
+        }
+        .testimonial_carousel .owl-nav .owl-next:after {
+            content: "";
+            background: url(../img/brand/testimonial-right-arrow_03.png) no-repeat;
+            position: absolute;
+           left: 106%;
+            right: 0;
+            top: 18%;
+            width: 50px;
+            height: 60px;
+        }
+        .owl-prev, .owl-next {
+            font-size: 0px;
+        }
+        .owl-dots {
+            display: none;
+        }
+        .single_testimonial{
+            background:#fff !important;
+            margin-top: 0px;
+            padding: 20px 20px 20px;
+        }
+        .owl-carousel .owl-dots.disabled, .owl-carousel .owl-nav.disabled{display:block;}
+        
+        a.cat-btn {
+            padding: 20px 30px;
+            height: 42px;
+            line-height: 40px;
+            background: #d91724;
+            color: #fff;
+            border-radius: 5px;
+            width: inherit;
+            font-size: 14px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        .modal_price span.old_price{
+            text-decoration: none !important;
+            font-size: 32px;
+            font-weight: 600;
+        }
+        .lean-more {
+            background: #fff !important;
+            color: #d91724 !important;
+        }
+        .modal_add_to_cart form button{
+            background: #d91724 !important;
+            border: 1px solid #d91724 !important;
+        }
+        .modal_add_to_cart .cart-btn {
+            background: #fff !important;
+            color: #d91724;
+        }
+        .modal_add_to_cart .cart-btn:hover{color:#d91724}
+        .modal_title.mb-10 h2 {
+            font-size: 28px;
+        }
+        .modal_price span {
+            font-weight: 600;
+            color: #000 !important;
+            font-size: 32px !important;
+        }
+        .section_title p{font-style: normal !important;}
+        .lunar-inner h1 a:hover {
+            color: #000 !important;
+        }
+        span.testimonial_name {
+            color: #d91724;
+            font-size: 15px;
+        }
+        .testimonial_area .section_title h2{
+            font-size: 32px;
+            font-weight: 600;
+            color: #d91724;
+        }
+        .faq_content_wrapper h4 {
+            font-size: 32px !important;
+            margin-bottom: 50px;
+            text-align: center;
+            color:$dark-red;
+        }
+
+        .hint ul li a:hover{
+            color:#d91724;
+        }
+        .about_gallery_content h3 a:hover {
+            color: #d91724;
+        }
+
+
+       
+}
+
+
+
+    
+   

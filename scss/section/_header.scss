@@ -980,9 +980,11 @@
     & nav{
         & > ul{
             display: flex;
+                align-items: center;
+                 justify-content: center;
             & > li{
 	            position: relative;
-                margin-right:35px;
+                margin-right:80px;
                 &:last-child{
                     margin-right: 0;
                 }
@@ -1011,10 +1013,10 @@
                 
                 & > a{
                     display: block;
-                    font-size: 15px;
+                    font-size:18px;
                     line-height: 50px;
                     text-transform: capitalize;
-                    font-weight: 500;
+                    font-weight: 600;
                     position: relative;
                     & i{
                         margin-left: 3px;
@@ -2200,7 +2202,9 @@
 
 
 
-
+.sticky-header.sticky hr {
+    display: none;
+}
 
 
 

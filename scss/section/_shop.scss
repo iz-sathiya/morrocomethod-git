@@ -11,7 +11,7 @@
 }
 
 .breadcrumbs_area{
-    background: url(../img/bg/banner18.jpg) no-repeat 0 0;
+  background:#f4f4f4;
     background-size: cover;
    height: 200px;
     display: flex;
@@ -197,25 +197,25 @@
 
 
 .ui-slider-horizontal .ui-slider-range {
-	background: $secondary_color;
-	height: 2px;
+    background: $secondary_color;
+    height: 2px;
 }
 
 .ui-slider-horizontal {
-	height: 2px;
-	background: #dbdbdb;
-	border: none;
-	width: 92%;
-	margin: 0 auto;
+    height: 2px;
+    background: #dbdbdb;
+    border: none;
+    width: 92%;
+    margin: 0 auto;
     margin-bottom: 22px;
 }
 
 .ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default {
-	background: $body-color;
-	width: 15px;
+    background: $body-color;
+    width: 15px;
     height: 15px;
     top: -7px;
-	cursor: pointer;
+    cursor: pointer;
     border-radius: 50%;
     border: 2px solid $secondary_color;
 }
@@ -280,9 +280,9 @@
 
 
 .shop_toolbar {
-	display: flex;
+    display: flex;
     align-items: center;
-	justify-content: space-between;
+    justify-content: space-between;
     border: 1px solid #e5e5e5;
     padding: 8px 10px;
     margin: 0 0 40px;
@@ -295,8 +295,8 @@
 
 
 .select_option {
-	display: flex;
-	align-items: center;
+    display: flex;
+    align-items: center;
     @media #{$large-mobile}{
       flex-direction: column;
     }
@@ -515,13 +515,13 @@
     }
 }
 .row.shop_wrapper {
-	flex-direction: row;
+    flex-direction: row;
 }
 .shop_toolbar_btn{
     & > button{
         margin-right: 10px;
         border: 0;
-	    background: inherit;
+        background: inherit;
         &.btn-grid-3{
             background: url(../img/icon/bkg_grid.png) no-repeat scroll center center;
             width: 20px;
@@ -531,7 +531,7 @@
             }
         }
         &.btn-grid-4{
-            background: url(../img/icon/bkg_grid4.png) no-repeat scroll center center;
+            background: url(../img/icon/bkg_grid_hover.png) no-repeat scroll center center;
             width: 26px;
             height: 22px;
             @media #{$desktop-device}{
@@ -541,22 +541,22 @@
                 display: none;
             }
             &.active{
-                background: url(../img/icon/bkg_grid4_hover.png) no-repeat scroll center center !important;
+                background: url(../img/icon/bkg_grid_hover.png) no-repeat scroll center center !important;
             }
         }
         &.btn-list{
-            background: url(../img/icon/bkg_list.png) no-repeat scroll center center;
+            background: url(../img/icon/list-icon.png) no-repeat scroll center center;
             width: 20px;
             height: 20px;
             &.active{
-                background: url(../img/icon/bkg_list_hover.png) no-repeat scroll center center !important;
+                background: url(../img/icon/list-icon.png) no-repeat scroll center center !important;
             }
         }
     }
-	
+    
 }
 .product_content.list_content {
-	display: none;
+    display: none;
 }
 .grid_content{
     & .product_ratings{
@@ -713,15 +713,15 @@
     }
 }
 .col-cust-5 {
-	-webkit-box-flex: 0;
-	-ms-flex: 0 0 20%;
-	flex: 0 0 20%;
-	max-width: max-width;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 20%;
+    flex: 0 0 20%;
+    max-width: max-width;
     padding-right: 15px;
     padding-left: 15px;
     @media #{$tablet-device}{
         -ms-flex: 0 0 33%;
-	    flex: 0 0 33%;
+        flex: 0 0 33%;
     }
     @media #{$large-mobile}{
         flex: 0 0 50%;
@@ -734,17 +734,17 @@
     
 }
 .shop_wrapper > div {
-	-webkit-transition: all 1s ease;
-	transition: all 1s ease;
+    -webkit-transition: all 1s ease;
+    transition: all 1s ease;
 }
 
 .shop_toolbar_wrapper {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	border: 1px solid #ddd;
-	padding: 8px 10px;
-	margin: 0 0 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid #ddd;
+    padding: 8px 10px;
+    margin: 0 0 30px;
     @media #{$large-mobile}{
         flex-direction: column;
         padding: 15px 10px 5px;
@@ -810,8 +810,20 @@
 }
 
 
+.action_links ul li a:hover{background:#d91724;border:none;}
+.pagination ul li.current{background:#d91724 !important;}
+.list_action_right ul li.add_to_cart a:hover{background:#d91724 !important;}
+
+.pagination ul li a:hover{background:#d91724;}
 
 
-
-
-
+.action_links {
+    display: none;
+}
+.grid_list .product_content.list_content{margin-top: 35px !important;}
+.shop_wrapper .single_product{border: 3px solid #ccc;}
+.price_box{margin-bottom: 15px;}
+.product_name a {
+    font-size: 21px !important;
+    font-weight: 600;
+}
