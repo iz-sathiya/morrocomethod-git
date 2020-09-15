@@ -9,7 +9,7 @@
         padding-bottom: 8px;
     }
 
-    .container{width:850px;}
+    .container{width:850px; max-width: 100%;}
 
     .contact-info {
         
@@ -17,6 +17,12 @@
        
         ul{text-align: left; margin-top: 11px; margin-bottom: 10px;}
 
+    }
+
+    a:hover { color:$dark-red;}
+
+    ul.footer_links li {
+        margin-bottom: 3px;
     }
 
 }
@@ -36,7 +42,7 @@
         }
     }
     & h3{
-        font-size:20px;
+        font-size:27px;
         line-height: 18px;
         margin-bottom: 20px;
         text-transform: capitalize;

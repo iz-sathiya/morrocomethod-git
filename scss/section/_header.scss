@@ -170,13 +170,9 @@
     }
 }
 .canvas_open{
-    position: absolute;
-    right: 17px;
-    top: 26px;
-    z-index: 9;
     @media #{$large-mobile}{
-        right: 20px;
-        top: 25px;
+        right:inherit;
+        top: inherit;
     }
     & a{
         font-size: 26px;
@@ -271,13 +267,34 @@
     padding: 7px 10px;
 
     @media #{$tablet-device}{
-        display: none;
+        display: block;
     }
     @media #{$large-mobile}{
-        display: none;
+        display: block;
     }
 
-    P{color:$white;}
+    P{color:$white;
+        @media #{$tablet-device}{
+           font-size: 11px;
+        }
+        @media #{$large-mobile}{
+            font-size: 10px;
+        }
+
+        .header_right.text-right{
+
+            @media #{$tablet-device}{
+                text-align: center !important;
+             }
+             @media #{$large-mobile}{
+                 font-size: 10px !important;
+             }
+
+
+        }
+    
+    
+    }
 
     .language_currency span, 
     .header_right span {
@@ -285,8 +302,48 @@
         vertical-align: top;
         padding-left: 5px;
     }
+
+    .language_currency{
+
+        @media #{$tablet-device}{
+            margin-bottom: 0;
+        }
+    
+        @media #{$large-mobile}{
+            margin-bottom: 0;
+        }
+    
+    
+    }
+
+   .header_right.text-right {
+
+        @media #{$tablet-device}{
+            text-align: center !important;
+        }
+    
+        @media #{$large-mobile}{
+            text-align: center !important;
+        }
+
+    }
+
+
+}
+
+.mobile-view-center {
+
+    @media #{$tablet-device}{
+        text-align: center;
+    }
+
+    @media #{$large-mobile}{
+        text-align: center;
+    }
     
 }
+
+
 
 
 .language_currency{
@@ -465,7 +522,7 @@
 .logo{
     & img{
         @media #{$large-mobile}{
-            max-width: 120px;
+            max-width:292px;
         }
 		@media #{$small-mobile2}{
             max-width: 292px;
@@ -2178,10 +2235,10 @@
     border-radius: 0px;
     max-width: 350px;
     @media #{$tablet-device}{
-        display: none;
+        display: block;
     }
     @media #{$large-mobile}{
-        display: none;
+        display: block;
     }
     & form{
         
@@ -2189,6 +2246,9 @@
 }
 
 .header_middle5{
+
+    .canvas_open {display: none;}
+
     & .header_account_area{
         @media #{$tablet-device}{
             justify-content: center;
@@ -2197,6 +2257,20 @@
             justify-content: center;
         }
     }
+
+    .canvas_open {
+        @media #{$tablet-device}{
+            display: block;
+           
+        }
+
+        @media #{$large-mobile}{
+            display: block;
+        }
+
+    }
+
+    
 }
 
 
