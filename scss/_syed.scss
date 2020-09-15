@@ -59,3 +59,66 @@ $sizes: (
 .main_menu nav > ul > li.active a {
     color:var(--color-red)
 }
+
+// 
+.footer-modern-list {
+	text-align: left;
+	margin-bottom: -7px;
+	color: #151515;
+}
+
+.footer-modern-list > li {
+	text-indent: -20px;
+	padding-left: 20px;
+	transition: all .25s ease;
+    list-style-type:none;
+}
+
+.footer-modern-list li::before {
+	display: inline-block;
+	vertical-align: middle;
+	content: '';
+	height: 2px;
+	width: 10px;
+	margin-right: 10px;
+	background: #000;
+	transition: inherit;
+}
+
+.footer-modern-list > li:hover a {
+	color: red;
+}
+
+.footer-modern-list > li {
+	margin-bottom: 7px;
+}
+
+
+.footer-modern-list a, .footer-modern-list a:focus, .footer-modern-list a:active {
+	color: inherit;
+}
+
+
+@media (min-width: 768px) {
+
+.footer-modern-list > li {
+		padding-right: 17px;
+	}
+	.footer-modern-list > li:hover {
+		padding-right: 0;
+	}
+	.footer-modern-list > li:hover::before {
+		width: 34px;
+		background: #404040;
+	}
+
+	.footer-modern-list > li::before {
+		width: 17px;
+		margin-right: 17px;
+	}
+
+}
+
+
+
+
